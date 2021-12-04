@@ -30,8 +30,8 @@ router.register(r'restaurant',views.RestoModelViewSet)
 
 
 urlpatterns = [
-    path('api-endpoints/',include(router.urls)),
-    path('', obtain_auth_token, name="obtain_auth_token"),
+    path('',include(router.urls)),
+    path('login/', obtain_auth_token, name="obtain_auth_token"),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls'))
 ] + router.urls
