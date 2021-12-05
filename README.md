@@ -21,3 +21,8 @@ restaurants should have a name, the name of the owner(owner can be individual or
 
 #### Link to Postman Collection : https://www.getpostman.com/collections/ab174c192d60b6930a6a
 #### Link to the Hosted Web API : https://restaurantsinrwanda.herokuapp.com/
+ 
+### Login Credentials for Testing
+
+Username : janice
+Password : 123
