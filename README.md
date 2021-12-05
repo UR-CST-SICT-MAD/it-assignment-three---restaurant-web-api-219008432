@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6443970&assignment_repo_type=AssignmentRepo)
 # MAD Assignment Web API (for IT)
 
-### Registration Number: ..............
+### Registration Number: 219008432
 
 ## Scenario
 
@@ -19,5 +19,5 @@ restaurants should have a name, the name of the owner(owner can be individual or
 #### Note: Don't be limited to the features specified in instructions, feel free to add any other feature you think is necessary.
 
 
-#### Link to Postman Collection : 
-#### Link to the Hosted Web API : 
+#### Link to Postman Collection : https://www.getpostman.com/collections/ab174c192d60b6930a6a
+#### Link to the Hosted Web API : https://restaurantsinrwanda.herokuapp.com/
