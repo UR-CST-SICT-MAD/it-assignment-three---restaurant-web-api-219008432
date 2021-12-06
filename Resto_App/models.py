@@ -26,7 +26,7 @@ class Restaurant(models.Model):
     )
 
     Restaurant_name = models.CharField(max_length= 20)
-    Owner_name = models.CharField(max_length= 50)
+    Ouner_name = models.CharField(max_length= 50)
     # Location = models.CharField(max_length= 40)
     Rating = models.CharField(max_length=50,choices=Rating,null=True)
     Sector = models.ForeignKey(sector,on_delete=models.SET_NULL,null=True,blank= True,related_name='restaurant')
