@@ -18,11 +18,11 @@ class sector(models.Model):
 # model of the restaurant 
 class Restaurant(models.Model):
     Rating = (
-        ('StarI', '*'),
-        ('StarII', '**'),
-        ('StarIII', '***'),
-        ('StarIV', '****'),
-        ('StarV','*****'),
+        ('*', 'StarI'),
+        ('**', 'StarII'),
+        ('***', 'StarIII'),
+        ('****', 'StarIV'),
+        ('*****','StarV'),
     )
 
     Restaurant_name = models.CharField(max_length= 20)
