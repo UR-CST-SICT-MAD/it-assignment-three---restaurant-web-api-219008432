@@ -18,7 +18,7 @@ class DishModelViewSet(ModelViewSet):
 class RestoModelViewSet(ModelViewSet):
     permission_classes = (IsAuthenticated,)
     queryset = Restaurant.objects.all()
-    serializer_classes = serializers.restaurantserializer
+    serializer_class = serializers.restaurantserializer
 
 #DistrictModelView
 class DistrictModelViewSet(ModelViewSet):
